@@ -1,4 +1,4 @@
-// ===== PARTICLE BACKGROUND =====
+// PARTICLE BACKGROUND 
 const canvas = document.getElementById('particles-canvas');
 const ctx = canvas.getContext('2d');
 let particles = [];
@@ -84,7 +84,7 @@ initParticles();
 animateParticles();
 
 
-// ===== NAVBAR SCROLL EFFECT =====
+// NAVBAR SCROLL EFFECT 
 const navbar = document.getElementById('navbar');
 const sections = document.querySelectorAll('section[id]');
 const navLinks = document.querySelectorAll('.nav-links a');
@@ -119,7 +119,7 @@ function handleNavScroll() {
 window.addEventListener('scroll', handleNavScroll);
 
 
-// ===== MOBILE NAV TOGGLE =====
+// MOBILE NAV TOGGLE 
 const navToggle = document.getElementById('nav-toggle');
 const navLinksContainer = document.getElementById('nav-links');
 
@@ -137,7 +137,7 @@ navLinksContainer.querySelectorAll('a').forEach(link => {
 });
 
 
-// ===== TYPING EFFECT =====
+// TYPING EFFECT 
 const typingTexts = [
   'Cybersecurity Student • Penetration Testing & Networking Enthusiast',
   'Exploring Ethical Hacking & Web Security',
@@ -179,7 +179,7 @@ function typeEffect() {
 setTimeout(typeEffect, 1500);
 
 
-// ===== SCROLL REVEAL =====
+// SCROLL REVEAL 
 const revealElements = document.querySelectorAll('.reveal');
 
 const revealObserver = new IntersectionObserver((entries) => {
@@ -196,7 +196,7 @@ const revealObserver = new IntersectionObserver((entries) => {
 revealElements.forEach(el => revealObserver.observe(el));
 
 
-// ===== DNS CHART ANIMATION =====
+// DNS CHART ANIMATION 
 const dnsCanvas = document.getElementById('dns-chart');
 const dnsCtx = dnsCanvas.getContext('2d');
 
@@ -332,7 +332,7 @@ window.addEventListener('resize', () => {
 });
 
 
-// ===== BACK TO TOP =====
+// BACK TO TOP 
 const backToTopBtn = document.getElementById('back-to-top');
 
 window.addEventListener('scroll', () => {
@@ -349,7 +349,7 @@ backToTopBtn.addEventListener('click', () => {
 
 
 
-// ===== SMOOTH SCROLL FOR NAV LINKS =====
+// SMOOTH SCROLL FOR NAV LINKS 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function(e) {
     e.preventDefault();
