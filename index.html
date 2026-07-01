@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Fares EL-Bassiouny — Cybersecurity student and penetration testing enthusiast. Portfolio showcasing skills, experience, certifications, and projects in cybersecurity.">
+  <meta property="og:title" content="Fares EL-Bassiouny | Cybersecurity Portfolio">
+  <meta property="og:description"
+    content="Cybersecurity student passionate about penetration testing, network security, and AI/ML in cybersecurity.">
+  <meta property="og:type" content="website">
+  <title>Fares EL-Bassiouny | Cybersecurity Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Particle Background -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">FARES<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#labs">Labs</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">FARES<br>Hatem Mohamed</h1>
+        <p class="hero-title-line">P O R T F O L I O</p>
+        <div class="hero-typing">
+          <span id="typed-text"></span><span class="cursor"></span>
+        </div>
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-primary">
+            <i class="fas fa-paper-plane"></i> Let's Connect
+          </a>
+          <a href="#project" class="btn btn-outline">
+            <i class="fas fa-shield-halved"></i> View Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image-frame">
+            <img src="assets/profile.jpeg" alt="Fares EL-Bassiouny" id="profile-img">
+          </div>
+          <p class="about-name-label">FARES Hatem</p>
+        </div>
+        <div class="about-text">
+          <h2 class="section-title reveal">ABOUT ME</h2>
+          <p class="reveal reveal-delay-1">
+            Motivated Cybersecurity student passionate about penetration testing and ethical hacking, with
+            hands-on experience from internships at ICT-Hub, El Sewedy Electric, and We Innovate. Currently
+            enhancing web security skills through HTB Academy's Web Expert path and PortSwigger labs.
+            Dedicated to continuous learning and developing strong technical expertise to excel in professional
+            cybersecurity roles.
+          </p>
+          <div class="about-focus-areas reveal reveal-delay-2">
+            <span class="focus-tag">Penetration Testing</span>
+            <span class="focus-tag">Network Security</span>
+            <span class="focus-tag">AI/ML in Cybersecurity</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="education" id="education">
+    <div class="container">
+      <p class="section-label reveal">Academic Background</p>
+      <h2 class="section-title reveal">EDUCATION</h2>
+      <div class="edu-cards">
+        <div class="edu-card reveal reveal-delay-1">
+          <div class="edu-icon">
+            <i class="fas fa-university"></i>
+          </div>
+          <div class="edu-info">
+            <h3>Bachelor's in Cybersecurity</h3>
+            <p>Arab Open University (AOU) — Cairo, Egypt</p>
+            <p class="edu-date">SEP 2023 – JAN 2027</p>
+          </div>
+        </div>
+        <div class="edu-card reveal reveal-delay-2">
+          <div class="edu-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="edu-info">
+            <h3>Secondary School Certificate</h3>
+            <p>EL Sayeda Khadija Language School</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <p class="section-label reveal">What I Bring</p>
+      <h2 class="section-title reveal">SKILLS</h2>
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="reveal reveal-delay-1">
+          <h3 class="skills-category-title">TECHNICAL</h3>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-code"></i></div>
+            <span class="skill-name">Python, OOP & Linux Commands</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-user-shield"></i></div>
+            <span class="skill-name">Cybersecurity, Pentesting & Info Security</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+            <span class="skill-name">Networking — TCP/IP, Routing & Switching</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-wifi"></i></div>
+            <span class="skill-name">DNS & Network Analysis, AI/ML Concepts</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-search"></i></div>
+            <span class="skill-name">Problem Solving & Technical Research</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+            <span class="skill-name">HTML, JavaScript & C#</span>
+          </div>
+        </div>
+        <!-- Soft Skills -->
+        <div class="reveal reveal-delay-2">
+          <h3 class="skills-category-title">SOFT SKILLS</h3>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-comments"></i></div>
+            <span class="skill-name">Communication</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-people-group"></i></div>
+            <span class="skill-name">Teamwork & Collaboration</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+            <span class="skill-name">Problem Solving</span>
+          </div>
+          <div class="skill-item">
+            <div class="skill-icon"><i class="fas fa-magnifying-glass"></i></div>
+            <span class="skill-name">Attention to Detail</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="experience" id="experience">
+    <div class="container">
+      <p class="section-label reveal">Where I've Worked</p>
+      <h2 class="section-title reveal">PROFESSIONAL EXPERIENCE</h2>
+      <div class="exp-grid">
+        <div class="exp-card reveal reveal-delay-1">
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-briefcase"></i></div>
+            <div class="exp-header-text">
+              <h3>Entrepreneurship Internship</h3>
+              <span class="exp-company">CIB Bank • Sep 2024</span>
+            </div>
+          </div>
+          <p>Gained insights into financial literacy, entrepreneurial skills, digital transformation, data literacy, and
+            interpersonal skills.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-2">
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-shield-halved"></i></div>
+            <div class="exp-header-text">
+              <h3>Cybersecurity Internship</h3>
+              <span class="exp-company">ICT-Hub • Aug 2024</span>
+            </div>
+          </div>
+          <p>Learned network, system, and application security, cryptography, GRC, incident response, and cyber
+            resilience.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-3">
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-server"></i></div>
+            <div class="exp-header-text">
+              <h3>Cybersecurity Internship</h3>
+              <span class="exp-company">El Sewedy Electric</span>
+            </div>
+          </div>
+          <p>Gained experience in firewall configuration, VPN setup, endpoint security, and threat intelligence.</p>
+        </div>
+        <div class="exp-card reveal reveal-delay-4">
+          <div class="exp-header">
+            <div class="exp-icon"><i class="fas fa-bug"></i></div>
+            <div class="exp-header-text">
+              <h3>Penetration Testing Bootcamp</h3>
+              <span class="exp-company">We Innovate</span>
+            </div>
+          </div>
+          <p>Hands-on training in web, mobile, and network pentesting — including XSS, SQLi, LFI/RFI, and Active
+            Directory fundamentals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED PROJECT ===== -->
+  <section class="project" id="project">
+    <div class="container">
+      <div class="project-content">
+        <div class="project-info">
+          <p class="section-label reveal">FEATURED PROJECT</p>
+          <h3 class="reveal">DNS Anomalies Detection System</h3>
+          <p class="project-subtitle reveal">AI/ML for Network Security</p>
+          <p class="reveal reveal-delay-1">
+            A machine-learning-based system focused on detecting abnormal DNS traffic behavior. The project applies
+            AI/ML concepts to network analysis, flagging unusual query patterns that may indicate malicious activity
+            such as tunneling, exfiltration, or botnet command-and-control traffic.
+          </p>
+          <div class="project-tags reveal reveal-delay-2">
+            <span class="project-tag">DNS Analysis</span>
+            <span class="project-tag">Anomaly Detection</span>
+            <span class="project-tag">AI/ML</span>
+            <span class="project-tag">Network Security</span>
+          </div>
+        </div>
+        <div class="chart-wrapper reveal reveal-delay-1">
+          <p class="chart-title">DNS Query Rate — Anomaly Flagged</p>
+          <canvas id="dns-chart"></canvas>
+          <p class="chart-caption">Spike at T6 is flagged as anomalous DNS traffic — the model alerts within
+            milliseconds.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LABS ===== -->
+  <section class="labs" id="labs">
+    <div class="container">
+      <p class="section-label reveal">Practical Learning</p>
+      <h2 class="section-title reveal">HANDS-ON LABS & PRACTICE</h2>
+      <div class="labs-grid">
+        <div class="lab-card reveal reveal-delay-1">
+          <div class="lab-icon"><i class="fas fa-bug"></i></div>
+          <h3>PortSwigger Web Security Labs</h3>
+          <div class="lab-divider"></div>
+          <p>Hands-on web security testing and vulnerability exploitation — SQL Injection, Authentication, and Access
+            Control vulnerabilities.</p>
+        </div>
+        <div class="lab-card reveal reveal-delay-2">
+          <div class="lab-icon"><i class="fas fa-network-wired"></i></div>
+          <h3>Networking & Security Labs</h3>
+          <div class="lab-divider"></div>
+          <p>Applied IP addressing, subnetting, network troubleshooting, and system security fundamentals.</p>
+        </div>
+        <div class="lab-card reveal reveal-delay-3">
+          <div class="lab-icon"><i class="fab fa-python"></i></div>
+          <h3>Python Projects & Scripting</h3>
+          <div class="lab-divider"></div>
+          <p>Built Python scripts for problem-solving and automation — applied to programming exercises and
+            cybersecurity tasks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <p class="section-label reveal">Credentials</p>
+      <h2 class="section-title reveal">CERTIFICATIONS & TRAINING</h2>
+      <div class="cert-list">
+        <div class="cert-card reveal reveal-delay-1">
+          <div class="cert-left">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-info">
+              <h3>CCNA</h3>
+              <p>Cisco Certified Network Associate • Apr 2025 – Oct 2025</p>
+            </div>
+          </div>
+          <span class="cert-badge completed">COMPLETED</span>
+        </div>
+        <div class="cert-card reveal reveal-delay-2">
+          <div class="cert-left">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-info">
+              <h3>CEH</h3>
+              <p>Certified Ethical Hacker • Sep 2025 – Jan 2026</p>
+            </div>
+          </div>
+          <span class="cert-badge completed">COMPLETED</span>
+        </div>
+        <div class="cert-card reveal reveal-delay-3">
+          <div class="cert-left">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-info">
+              <h3>MCSA</h3>
+              <p>Microsoft Certified Solutions Associate</p>
+            </div>
+          </div>
+          <span class="cert-badge in-progress">IN PROGRESS</span>
+        </div>
+        <div class="cert-card reveal reveal-delay-4">
+          <div class="cert-left">
+            <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+            <div class="cert-info">
+              <h3>Web Penetration Tester Path</h3>
+              <p>HTB Academy — CWES</p>
+            </div>
+          </div>
+          <span class="cert-badge in-progress">IN PROGRESS</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LANGUAGES & ACTIVITIES ===== -->
+  <section class="extras" id="extras">
+    <div class="container">
+      <h2 class="section-title reveal">LANGUAGES & ACTIVITIES</h2>
+      <div class="extras-grid">
+        <div class="reveal reveal-delay-1">
+          <h3 class="extras-category-title">LANGUAGES</h3>
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">Arabic</span>
+              <span class="lang-level">Native</span>
+            </div>
+            <div class="lang-bar">
+              <div class="lang-bar-fill" style="width: 100%"></div>
+            </div>
+          </div>
+          <div class="lang-item">
+            <div class="lang-header">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Fluent</span>
+            </div>
+            <div class="lang-bar">
+              <div class="lang-bar-fill" style="width: 85%"></div>
+            </div>
+          </div>
+        </div>
+        <div class="reveal reveal-delay-2">
+          <h3 class="extras-category-title">EXTRACURRICULAR ACTIVITIES</h3>
+          <div class="activity-card">
+            <div class="activity-icon"><i class="fas fa-users"></i></div>
+            <div class="activity-text">
+              <strong>Student Union</strong>
+              <span>Member — participated in organizing student events and academic activities.</span>
+            </div>
+          </div>
+          <div class="activity-card">
+            <div class="activity-icon"><i class="fab fa-microsoft"></i></div>
+            <div class="activity-text">
+              <strong>Microsoft Club</strong>
+              <span>Member — attended technical workshops and contributed to club events and sessions.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <p class="section-label reveal">Get In Touch</p>
+      <h2 class="section-title reveal">LET'S CONNECT</h2>
+      <p class="contact-intro reveal">Open to cybersecurity internships and junior penetration-testing opportunities.
+      </p>
+      <div class="contact-grid">
+        <div>
+          <div class="contact-methods">
+            <a href="tel:+201149957451" class="contact-item reveal reveal-delay-1">
+              <div class="contact-item-icon"><i class="fas fa-phone"></i></div>
+              <div class="contact-item-text">
+                <strong>Phone</strong>
+                01149957451
+              </div>
+            </a>
+            <a href="mailto:bassionyfares@gmail.com" class="contact-item reveal reveal-delay-2">
+              <div class="contact-item-icon"><i class="fas fa-envelope"></i></div>
+              <div class="contact-item-text">
+                <strong>Email</strong>
+                bassionyfares@gmail.com
+              </div>
+            </a>
+            <div class="contact-item reveal reveal-delay-3">
+              <div class="contact-item-icon"><i class="fas fa-location-dot"></i></div>
+              <div class="contact-item-text">
+                <strong>Location</strong>
+                Cairo, Egypt
+              </div>
+            </div>
+            <a href="https://www.linkedin.com/in/fares-el-bassiouny-6aa352328/" target="_blank" rel="noopener"
+              class="contact-item reveal reveal-delay-4">
+              <div class="contact-item-icon"><i class="fab fa-linkedin-in"></i></div>
+              <div class="contact-item-text">
+                <strong>LinkedIn</strong>
+                Fares EL-Bassiouny
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p class="footer-text">© 2025 <span>Fares EL-Bassiouny</span>. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
